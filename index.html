@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Use your own favicon -->
+    <!-- Current one is generted via https://favicon.io/favicon-generator -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+
+    <!-- Template Dev Credentials. Feel free to remove this line -->
+    <script src="./dev.js" defer></script> 
+
+    <title>Your Project Name</title>
+    <style>
+        body {
+          align-items: center;
+          /* Use your image URL*/
+          /* For preview we use https://picsum.photos API to get photos from https://unsplash.com */
+          background: url('https://picsum.photos/1200/800') no-repeat center center fixed;
+          background-size: cover;
+          display: flex;
+          flex-direction: column;
+          font-family: Arial, sans-serif;
+          height: 100vh;
+          justify-content: center;
+          margin: 0;
+          padding: 0;
+          position: relative;
+        }
+
+        body::before {
+          background: rgba(0, 0, 0, 0.5);
+          content: "";
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100%;
+        }
+
+        .content {
+          color: white;
+          text-align: center;
+          z-index: 1;
+        }
+
+        h1 {
+          font-size: 36px;
+          margin: 0;
+        }
+
+        p {
+          font-size: 22px;
+          margin: 10px 0;
+        }
+
+        a {
+          color: white;
+          font-weight: bold;
+          margin: 5px;
+          text-decoration: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Your Project / Site Name</h1>
+      <p>Description of project</p>
+      <div>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+      </div>
+    </div>
+  </body>
+</html>
